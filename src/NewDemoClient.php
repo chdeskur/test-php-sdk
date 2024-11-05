@@ -115,7 +115,7 @@ class NewDemoClient
         $defaultHeaders = [
             'X-Fern-Language' => 'PHP',
             'X-Fern-SDK-Name' => 'NewDemo',
-            'X-Fern-SDK-Version' => '0.0.2',
+            'X-Fern-SDK-Version' => '0.1.0',
         ];
         if ($token != null) {
             $defaultHeaders['Authorization'] = "Bearer $token";
